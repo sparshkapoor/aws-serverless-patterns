@@ -248,3 +248,14 @@ $RECYCLE.BIN/
 *.aws-sam*
 *.venv*
 samconfig.toml
+
+# AWS Credentials & Config
+.aws/
+aws-exports.js
+awsconfiguration.json
+
+# SAM Build & Deploy Artifacts
+.aws-sam/
+samconfig.toml
+packaged-template.yaml
+packaged-template.yml
